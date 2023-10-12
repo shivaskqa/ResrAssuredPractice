@@ -1,0 +1,10 @@
+ {
+      "id": 6,
+      "name": "SampleStudentExtFile",
+      "location": "Germany",
+      "phone": "9959959199",
+      "courses": [
+        "java",
+        "javascript"
+      ]
+   }

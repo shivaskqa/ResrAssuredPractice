@@ -1,0 +1,115 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "students"
+    ],
+    "properties": {
+        "students": {
+            "type": "array",
+            "default": [],
+            "title": "The students Schema",
+            "items": {
+                "type": "object",
+                "default": {},
+                "title": "A Schema",
+                "required": [
+                    "id",
+                    "name",
+                    "location",
+                    "phone",
+                    "courses"
+                ],
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The id Schema",
+                        "examples": [
+                            1
+                        ]
+                    },
+                    "name": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The name Schema",
+                        "examples": [
+                            "Agasthya"
+                        ]
+                    },
+                    "location": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The location Schema",
+                        "examples": [
+                            "hyderabad"
+                        ]
+                    },
+                    "phone": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The phone Schema",
+                        "examples": [
+                            "9052112521"
+                        ]
+                    },
+                    "courses": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The courses Schema",
+                        "items": {
+                            "type": "string",
+                            "title": "A Schema",
+                            "examples": [
+                                "java",
+                                "selenium"
+                            ]
+                        },
+                        "examples": [
+                            ["java",
+                                "selenium"
+                            ]
+                        ]
+                    }
+                },
+                "examples": [{
+                    "id": 1,
+                    "name": "Agasthya",
+                    "location": "hyderabad",
+                    "phone": "9052112521",
+                    "courses": [
+                        "java",
+                        "selenium"
+                    ]
+                }]
+            },
+            "examples": [
+                [{
+                    "id": 1,
+                    "name": "Agasthya",
+                    "location": "hyderabad",
+                    "phone": "9052112521",
+                    "courses": [
+                        "java",
+                        "selenium"
+                    ]
+                }]
+            ]
+        }
+    },
+    "examples": [{
+        "students": [{
+            "id": 1,
+            "name": "Agasthya",
+            "location": "hyderabad",
+            "phone": "9052112521",
+            "courses": [
+                "java",
+                "selenium"
+            ]
+        }]
+    }]
+}

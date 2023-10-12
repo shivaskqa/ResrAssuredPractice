@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.hcl.api.TestLogsWithRestAssured"/>
+      <class name="com.hcl.api.DeleteUserRestAPI"/>
+      <class name="com.hcl.api.SerializationWithRestAssured"/>
+      <class name="com.hcl.api.TestCookies"/>
+      <class name="com.hcl.api.RequestWithPathQueryParameters"/>
+      <class name="com.hcl.api.TestUploadDownloadFileToWebApp"/>
+      <class name="com.hcl.api.ValidateJSONSchemaViaJSONFile"/>
+      <class name="com.hcl.api.ParsingJSONResponseData"/>
+      <class name="com.hcl.api.WaysToCreatePostRequestWithCricketersJSONFile"/>
+      <class name="com.hcl.api.WaysToCreatePOSTRequestBody"/>
+      <class name="com.hcl.api.TestHeaders"/>
+      <class name="com.hcl.api.GetUserRestAPI"/>
+      <class name="com.hcl.api.HTTPRequests"/>
+      <class name="com.hcl.api.CreateUserRestAPI"/>
+      <class name="com.hcl.api.UpdateUser"/>
+      <class name="com.hcl.api.ParsingXMLResponse"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

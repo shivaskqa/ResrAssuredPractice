@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="com.hcl.api.GetUserRestAPI">
+        <methods>
+          <include name="testGetUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hcl.api.GetUserRestAPI -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <classes>
+      <class name="com.hcl.api.UpdateUser">
+        <methods>
+          <include name="createUserViaFakerJavaLibrary" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hcl.api.UpdateUser -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="5" name="Test4(failed)">
+    <classes>
+      <class name="com.hcl.api.DeleteUserRestAPI">
+        <methods>
+          <include name="testGetUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hcl.api.DeleteUserRestAPI -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->
