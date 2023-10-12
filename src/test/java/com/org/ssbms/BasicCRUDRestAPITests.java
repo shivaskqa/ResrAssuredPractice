@@ -146,13 +146,7 @@ public class BasicCRUDRestAPITests {
 		//following code is for oauth2
 		//String accessToken="";
 		RestAssured.given().auth().oauth2(accessToken);
-  
-		
-		
-		
-		
-		
-		
+  		
 	}
 	
 }
