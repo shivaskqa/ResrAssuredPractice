@@ -22,7 +22,9 @@ public class HTTPRequests {
 		//given()
 		when().get("https://reqres.in/api/users/2")
 		.then()
-		.statusCode(200);
+				.assertThat()
+		.statusCode(200)
+		.contentType(ContentType.JSON);
 		
 	}
 	
@@ -47,6 +49,7 @@ public class HTTPRequests {
 		  data.put("job", "leader");
 		
 		id=given()
+				.accept(ContentType.JSON)
 				.contentType(ContentType.JSON)
 				.body(data)
 				.when()

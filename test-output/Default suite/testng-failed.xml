@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.org.ssbms.BasicCRUDRestAPITests">
+      <class name="com.hcl.api.HTTPRequestsNew">
         <methods>
-          <include name="setUp"/>
-          <include name="deleteCricketerDetailsviaID"/>
+          <include name="testGetRequest"/>
         </methods>
-      </class> <!-- com.org.ssbms.BasicCRUDRestAPITests -->
+      </class> <!-- com.hcl.api.HTTPRequestsNew -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,36 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-12T04:46:37 IST" name="Default suite" finished-at="2023-10-12T04:46:40 IST" duration-ms="3022">
+  <suite started-at="2023-10-27T13:43:33 IST" name="Default suite" finished-at="2023-10-27T13:43:39 IST" duration-ms="6045">
     <groups>
     </groups>
-    <test started-at="2023-10-12T04:46:37 IST" name="Default test" finished-at="2023-10-12T04:46:40 IST" duration-ms="3022">
-      <class name="com.org.ssbms.BasicCRUDRestAPITests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.org.ssbms.BasicCRUDRestAPITests@51e69659]" started-at="2023-10-12T04:46:37 IST" name="setUp" finished-at="2023-10-12T04:46:38 IST" duration-ms="1102" status="PASS">
+    <test started-at="2023-10-27T13:43:33 IST" name="Default test" finished-at="2023-10-27T13:43:39 IST" duration-ms="6045">
+      <class name="com.hcl.api.HTTPRequestsNew">
+        <test-method signature="getSingleUser()[pri:0, instance:com.hcl.api.HTTPRequestsNew@437da279]" started-at="2023-10-27T13:43:33 IST" name="getSingleUser" finished-at="2023-10-27T13:43:35 IST" duration-ms="2395" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="deleteCricketerDetailsviaID()[pri:0, instance:com.org.ssbms.BasicCRUDRestAPITests@51e69659]" started-at="2023-10-12T04:46:38 IST" name="deleteCricketerDetailsviaID" finished-at="2023-10-12T04:46:39 IST" duration-ms="1557" status="PASS">
+        </test-method> <!-- getSingleUser -->
+        <test-method signature="testGetRequest()[pri:0, instance:com.hcl.api.HTTPRequestsNew@437da279]" started-at="2023-10-27T13:43:35 IST" name="testGetRequest" finished-at="2023-10-27T13:43:35 IST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteCricketerDetailsviaID -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.org.ssbms.BasicCRUDRestAPITests@51e69659]" started-at="2023-10-12T04:46:39 IST" name="setUp" finished-at="2023-10-12T04:46:39 IST" duration-ms="4" status="PASS">
+        </test-method> <!-- testGetRequest -->
+        <test-method signature="testPostRequest()[pri:0, instance:com.hcl.api.HTTPRequestsNew@437da279]" started-at="2023-10-27T13:43:35 IST" name="testPostRequest" finished-at="2023-10-27T13:43:39 IST" duration-ms="3307" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testGetCricketersDetails()[pri:0, instance:com.org.ssbms.BasicCRUDRestAPITests@51e69659]" started-at="2023-10-12T04:46:39 IST" name="testGetCricketersDetails" finished-at="2023-10-12T04:46:39 IST" duration-ms="102" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetCricketersDetails -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.org.ssbms.BasicCRUDRestAPITests@51e69659]" started-at="2023-10-12T04:46:39 IST" name="setUp" finished-at="2023-10-12T04:46:39 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testGetCricketersDetailsBasedonID()[pri:0, instance:com.org.ssbms.BasicCRUDRestAPITests@51e69659]" started-at="2023-10-12T04:46:39 IST" name="testGetCricketersDetailsBasedonID" finished-at="2023-10-12T04:46:40 IST" duration-ms="128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetCricketersDetailsBasedonID -->
-      </class> <!-- com.org.ssbms.BasicCRUDRestAPITests -->
+        </test-method> <!-- testPostRequest -->
+      </class> <!-- com.hcl.api.HTTPRequestsNew -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
